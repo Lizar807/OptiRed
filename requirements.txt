@@ -1,0 +1,7 @@
+# Dependencias del proyecto OptiRed
+
+PyQt6>=6.6.0             # interfaz gráfica de escritorio (main.py / src/gui)
+pytest>=7.0.0            # ejecución de tests unitarios
+
+# Opcionales:
+# networkx>=3.0          # solo para comparar/validar resultados, no reemplaza la implementación propia

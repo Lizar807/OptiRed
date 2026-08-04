@@ -1,0 +1,227 @@
+{
+  "dirigido": true,
+  "ponderado": true,
+  "con_capacidad": false,
+  "descripcion": "Red de transporte urbano - pesos positivos para Dijkstra",
+  "nombres": {
+    "N01": "Terminal Norte",
+    "N02": "Plaza Mayor",
+    "N03": "Estacion Central",
+    "N04": "Universidad",
+    "N05": "Hospital Central",
+    "N06": "Mercado Central",
+    "N07": "Estadio Municipal",
+    "N08": "Terminal Sur",
+    "N09": "Aeropuerto",
+    "N10": "Puerto",
+    "N11": "Zona Industrial",
+    "N12": "Barrio Este",
+    "N13": "Barrio Oeste",
+    "N14": "Centro Comercial",
+    "N15": "Municipalidad",
+    "N16": "Biblioteca Nacional",
+    "N17": "Parque Central",
+    "N18": "Estacion de Tren",
+    "N19": "Mirador",
+    "N20": "Plaza Norte",
+    "N21": "Plaza Sur",
+    "N22": "Residencial A",
+    "N23": "Residencial B",
+    "N24": "Terminal Intermodal",
+    "N25": "Avenida Libertad"
+  },
+  "nodos": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09",
+    "N10",
+    "N11",
+    "N12",
+    "N13",
+    "N14",
+    "N15",
+    "N16",
+    "N17",
+    "N18",
+    "N19",
+    "N20",
+    "N21",
+    "N22",
+    "N23",
+    "N24",
+    "N25"
+  ],
+  "aristas": [
+    {
+      "origen": "N01",
+      "destino": "N02",
+      "peso": 5
+    },
+    {
+      "origen": "N02",
+      "destino": "N03",
+      "peso": 4
+    },
+    {
+      "origen": "N03",
+      "destino": "N04",
+      "peso": 6
+    },
+    {
+      "origen": "N04",
+      "destino": "N05",
+      "peso": 3
+    },
+    {
+      "origen": "N05",
+      "destino": "N06",
+      "peso": 5
+    },
+    {
+      "origen": "N06",
+      "destino": "N07",
+      "peso": 4
+    },
+    {
+      "origen": "N07",
+      "destino": "N01",
+      "peso": 7
+    },
+    {
+      "origen": "N08",
+      "destino": "N09",
+      "peso": 6
+    },
+    {
+      "origen": "N09",
+      "destino": "N10",
+      "peso": 5
+    },
+    {
+      "origen": "N10",
+      "destino": "N11",
+      "peso": 8
+    },
+    {
+      "origen": "N11",
+      "destino": "N12",
+      "peso": 4
+    },
+    {
+      "origen": "N12",
+      "destino": "N13",
+      "peso": 5
+    },
+    {
+      "origen": "N13",
+      "destino": "N08",
+      "peso": 6
+    },
+    {
+      "origen": "N07",
+      "destino": "N24",
+      "peso": 9
+    },
+    {
+      "origen": "N24",
+      "destino": "N08",
+      "peso": 10
+    },
+    {
+      "origen": "N14",
+      "destino": "N02",
+      "peso": 3
+    },
+    {
+      "origen": "N14",
+      "destino": "N06",
+      "peso": 6
+    },
+    {
+      "origen": "N15",
+      "destino": "N03",
+      "peso": 4
+    },
+    {
+      "origen": "N16",
+      "destino": "N15",
+      "peso": 3
+    },
+    {
+      "origen": "N17",
+      "destino": "N04",
+      "peso": 5
+    },
+    {
+      "origen": "N17",
+      "destino": "N16",
+      "peso": 7
+    },
+    {
+      "origen": "N18",
+      "destino": "N03",
+      "peso": 5
+    },
+    {
+      "origen": "N18",
+      "destino": "N24",
+      "peso": 8
+    },
+    {
+      "origen": "N19",
+      "destino": "N07",
+      "peso": 4
+    },
+    {
+      "origen": "N20",
+      "destino": "N01",
+      "peso": 3
+    },
+    {
+      "origen": "N20",
+      "destino": "N02",
+      "peso": 4
+    },
+    {
+      "origen": "N21",
+      "destino": "N08",
+      "peso": 3
+    },
+    {
+      "origen": "N21",
+      "destino": "N09",
+      "peso": 4
+    },
+    {
+      "origen": "N22",
+      "destino": "N11",
+      "peso": 5
+    },
+    {
+      "origen": "N23",
+      "destino": "N12",
+      "peso": 4
+    },
+    {
+      "origen": "N23",
+      "destino": "N22",
+      "peso": 3
+    },
+    {
+      "origen": "N25",
+      "destino": "N05",
+      "peso": 9
+    },
+    {
+      "origen": "N25",
+      "destino": "N10",
+      "peso": 11
+    }
+  ]
+}
